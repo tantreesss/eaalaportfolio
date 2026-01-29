@@ -26,6 +26,7 @@ import vineResidencesImg from '../assets/vine.jpg';
 import wackwackImg from '../assets/wack.jpg';
 import zuelligBuildingImg from '../assets/Zuellig.jpg';
 import greenbeltImg from '../assets/greenbelt.JPG';
+import primeImg from '../assets/prime.jpg';
 
 interface Project {
   id: number;
@@ -262,9 +263,8 @@ const projects: Project[] = [
     title: "Henann Prime",
     category: "Hotels & Resorts",
     location: "Boracay, Aklan",
-    image: "https://images.unsplash.com/photo-1676089775615-cceedcdf96e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBiZWFjaCUyMHJlc29ydCUyMHBvb2wlMjBib3JhY2F5fGVufDF8fHx8MTc2OTU2MDk1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-
-    builtEnvironmentType: "Resort",
+    image: primeImg,
+    builtEnvironmentType: "Hotel & Resort",
     description: "Henann Prime is one of the world class resorts in Boracay. As the third development of the Henann Group of Resorts, Henann Prime is the first beachfront resort in Station 1 with a total of 154 rooms from the expansion. Henann resorts are known for their signature style and relaxing coastal designs. Designed to be elegantly minimalist, it has attracted many locals and tourists. Compared to its sister resorts, Henann Regency Boracay and Henann Resort Alona Beach, Henann Prime is smaller which makes the place more private and intimate. Despite being smaller than the other Henann resorts, Henann Prime took the opportunity to be different. From the signature poolside rooms, the pools, and the breathtaking beachfront, Henann Prime offers simple but luxurious amenities that will surely give the visitors a one of a kind experience.\n\nHenann Prime is located at Station 1 where it is known to have one of the most well-kept beaches and the most secluded part of Boracay Island. As the Henann Group of Resorts' first beachfront resort, Henann Prime utilized the breathtaking beachfront with its crystal blue waters and soft white sands by providing an eye-catching and stylish blue-green beach bed with the white umbrellas. This allows not only the inner part of the resort but the beachfront look high-end as well.\n\nSimilar to other Henann resorts, the main highlight of the Henann Prime are the luxury pools that are designed to be simple yet elegant. The design process of these luxury pools are meant to be elegantly minimalist since the intentions of the clients together with the landscape designer was to create pools that are simple enough that it won't interfere with the beach. To take advantage of the opportunity to be different from the other Henann resorts, Henann Regency Boracay and Henann Resorts Alona Beach, it made use of its intimate size to design two swimming pools on the West Wing and the East Wing of the resort.\n\nSince the area of the real estate is limited, the landscape design is focused on the swimming pools. The swimming pools of the West Wing are creatively designed to serve as private pools for the rooms on the ground floor. In accordance with the client's request, since the West Wing is located closer to the beachfront, the West Wing pools were designed to be intimate that would give the visitors privacy. In addition to the design, the private pools show Bas Reliefs, other wall features and water cascades. These remarkable features shown in the private pools make Henann Resort different from Henann Regency Boracay and Henann Alona Beach. Compared to the West Wing, the area of the East Wing allows more space for a narrow pool that is located in the middle of the two buildings that have direct access to the swimming pool on the ground floor. This narrow pool is divided by an island where there are sunken seats, a wooden deck and sunbeds that serve as the main features of the East Wing Pool."
   }
 ];
