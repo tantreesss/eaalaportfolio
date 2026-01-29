@@ -1,4 +1,4 @@
-import { TreePine, Building2, Sprout, Pencil, Users, Leaf, FileText, ClipboardCheck } from 'lucide-react';
+import { TreePine, Building2, Pencil, Users, Leaf, FileText, ClipboardCheck } from 'lucide-react';
 
 const services = [
   {
