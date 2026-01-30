@@ -40,9 +40,6 @@ export function Services() {
                   <Icon className="w-12 h-12 stroke-1" />
                 </div>
                 <h3 className="text-2xl mb-4">{service.title}</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {service.description}
-                </p>
               </div>
             );
           })}
