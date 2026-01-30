@@ -13,10 +13,10 @@ export function Hero() {
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
       
-      <div className="relative h-full flex flex-col items-center justify-center text-white px-4">
+      <div className="relative h-full flex flex-col items-center justify-center text-white px-4 text-center">
         <h1 className="text-6xl md:text-8xl tracking-wide mb-4">EAALA</h1>
         <p className="text-xl md:text-2xl tracking-widest uppercase">EA Aurelio Landscape Architects</p>
-        <div className="mt-8 w-24 h-px bg-white"></div>
+        <div className="mt-8 w-24 h-px bg-white mx-auto"></div>
         {/* <p className="mt-8 text-lg tracking-wide"></p> */}
       </div>
       

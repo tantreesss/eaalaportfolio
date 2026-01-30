@@ -1,5 +1,5 @@
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
 import smdcParkvilleImg from '../assets/parkville.PNG';
 import aokiClubhouseImg from '../assets/AOKI.jpg';
@@ -271,6 +271,85 @@ export function FeaturedProjects() {
   const filteredProjects = filter === 'All' 
     ? projects 
     : projects.filter(project => project.category === filter);
+
+  // Helper function to normalize project names for matching
+  const normalizeProjectName = (name: string): string => {
+    return name
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, '') // Remove special characters
+      .replace(/\b\d+\b/g, '') // Remove standalone numbers (e.g., "1" in "Shore 1")
+      .replace(/\s+/g, ' ') // Normalize whitespace
+      .trim();
+  };
+
+  // Helper function to extract main project name (remove location details)
+  const extractMainName = (fullName: string): string => {
+    // Split by comma and take the first part (usually the project name)
+    const parts = fullName.split(',');
+    return parts[0].trim();
+  };
+
+  // Helper function to find project by award project name
+  const findProjectByAwardName = (awardProjectName: string): Project | null => {
+    const mainAwardName = extractMainName(awardProjectName);
+    const normalizedAwardName = normalizeProjectName(mainAwardName);
+    
+    // Try exact match first
+    let match = projects.find(project => 
+      normalizeProjectName(project.title) === normalizedAwardName
+    );
+    
+    if (match) return match;
+    
+    // Try partial match - check if award name contains project title or vice versa
+    match = projects.find(project => {
+      const normalizedProjectTitle = normalizeProjectName(project.title);
+      return normalizedAwardName.includes(normalizedProjectTitle) || 
+             normalizedProjectTitle.includes(normalizedAwardName);
+    });
+    
+    if (match) return match;
+    
+    // Try matching key words (e.g., "Tambuli" matches "Tambuli Seaside Resort")
+    const awardWords = normalizedAwardName.split(' ').filter(word => word.length > 2);
+    match = projects.find(project => {
+      const projectTitle = normalizeProjectName(project.title);
+      const projectWords = projectTitle.split(' ').filter(word => word.length > 2);
+      
+      // Check if significant words match
+      const matchingWords = awardWords.filter(word => 
+        projectWords.some(pWord => pWord.includes(word) || word.includes(pWord))
+      );
+      
+      // Require at least 2 matching words or one very long matching word
+      return matchingWords.length >= 2 || 
+             (matchingWords.length === 1 && matchingWords[0].length > 5);
+    });
+    
+    return match || null;
+  };
+
+  // Listen for project open events from Awards component
+  useEffect(() => {
+    const handleOpenProject = (event: CustomEvent) => {
+      const awardProjectName = event.detail.title;
+      const matchingProject = findProjectByAwardName(awardProjectName);
+      
+      if (matchingProject) {
+        setSelectedImage(matchingProject);
+        // Scroll to projects section
+        setTimeout(() => {
+          document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    };
+
+    window.addEventListener('openProject' as any, handleOpenProject as EventListener);
+    
+    return () => {
+      window.removeEventListener('openProject' as any, handleOpenProject as EventListener);
+    };
+  }, []);
 
   return (
     <>
