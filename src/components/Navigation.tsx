@@ -96,18 +96,6 @@ export function Navigation() {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <button
-                key={link.id}
-                onClick={() => scrollToSection(link.id)}
-                className={`tracking-wide transition-colors hover:opacity-70 ${
-                  isScrolled ? 'text-black' : 'text-white'
-                }`}
-              >
-                {link.label}
-              </button>
-            ))}
-            
             {/* About Dropdown */}
             <div 
               className="relative about-dropdown-container"
@@ -139,6 +127,18 @@ export function Navigation() {
                 </div>
               )}
             </div>
+            
+            {navLinks.map((link) => (
+              <button
+                key={link.id}
+                onClick={() => scrollToSection(link.id)}
+                className={`tracking-wide transition-colors hover:opacity-70 ${
+                  isScrolled ? 'text-black' : 'text-white'
+                }`}
+              >
+                {link.label}
+              </button>
+            ))}
           </div>
           
           {/* Mobile Menu Button */}
@@ -157,16 +157,6 @@ export function Navigation() {
       {isMobileMenuOpen && (
         <div className="fixed inset-0 z-40 bg-white md:hidden">
           <div className="flex flex-col items-center justify-center h-full gap-8">
-            {navLinks.map((link) => (
-              <button
-                key={link.id}
-                onClick={() => scrollToSection(link.id)}
-                className="text-2xl tracking-wide hover:opacity-70 transition-opacity"
-              >
-                {link.label}
-              </button>
-            ))}
-            
             {/* About Dropdown in Mobile */}
             <div className="flex flex-col items-center gap-4">
               <button
@@ -191,6 +181,16 @@ export function Navigation() {
                 </div>
               )}
             </div>
+            
+            {navLinks.map((link) => (
+              <button
+                key={link.id}
+                onClick={() => scrollToSection(link.id)}
+                className="text-2xl tracking-wide hover:opacity-70 transition-opacity"
+              >
+                {link.label}
+              </button>
+            ))}
           </div>
         </div>
       )}
