@@ -166,10 +166,14 @@ export function Awards() {
                   <span className="text-sm px-3 py-1 bg-black text-white">{award.year}</span>
                   <Award className="w-5 h-5 text-gray-400" />
                 </div>
-                <h4 className="text-xl mb-2">{award.title}</h4>
-                <p className="text-gray-600 mb-2">{award.category}</p>
-                <p className="text-sm text-gray-500 mb-1">{award.project}</p>
-                <p className="text-sm text-gray-400">{award.organization}</p>
+                <p className="text-sm font-medium text-gray-500 mb-1">Award</p>
+                <h4 className="text-xl mb-3">{award.title}</h4>
+                <p className="text-sm font-medium text-gray-500 mb-1">Project</p>
+                <p className="text-gray-700 mb-3">{award.project}</p>
+                <p className="text-sm font-medium text-gray-500 mb-1">Category</p>
+                <p className="text-gray-600 mb-3">{award.category}</p>
+                <p className="text-sm font-medium text-gray-500 mb-1">Awarding Body</p>
+                <p className="text-sm text-gray-500 mb-2">{award.organization}</p>
                 {award.description && <p className="text-sm text-gray-500 mt-2">{award.description}</p>}
                 {award.client && <p className="text-sm text-gray-500 mt-2">Client: {award.client}</p>}
               </div>
@@ -190,9 +194,12 @@ export function Awards() {
                   <span className="text-sm px-3 py-1 bg-black text-white">{award.year}</span>
                   <Award className="w-5 h-5 text-gray-400" />
                 </div>
-                <h4 className="text-lg mb-2">{award.title}</h4>
-                <p className="text-sm text-gray-500 mb-1">{award.project}</p>
-                <p className="text-sm text-gray-400">{award.organization}</p>
+                <p className="text-sm font-medium text-gray-500 mb-1">Award</p>
+                <h4 className="text-lg mb-3">{award.title}</h4>
+                <p className="text-sm font-medium text-gray-500 mb-1">Project</p>
+                <p className="text-gray-700 mb-3">{award.project}</p>
+                <p className="text-sm font-medium text-gray-500 mb-1">Awarding Body</p>
+                <p className="text-sm text-gray-500">{award.organization}</p>
               </div>
             ))}
           </div>

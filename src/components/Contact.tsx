@@ -48,8 +48,9 @@ export function Contact() {
                 <div>
                   <div className="mb-1">Address</div>
                   <p className="text-gray-600">
-                    Future Point Plaza 1,<br />
-                    Panay Avenue, Quezon City, Philippines
+                  Unit 710, Future Point Plaza 1,<br />
+                  112 Panay Avenue, Brgy. South Triangle,<br />
+                   Quezon City 1103, Metro Manila, Philippines
                   </p>
                 </div>
               </div>
@@ -57,8 +58,10 @@ export function Contact() {
               <div className="flex items-start gap-4">
                 <Phone className="w-6 h-6 mt-1 flex-shrink-0" />
                 <div>
-                  <div className="mb-1">Landline & Contact Number</div>
-                  <p className="text-gray-600">(02) 85549453</p>
+                  <div className="mb-1">Landline</div>
+                  <p className="text-gray-600">(02) 8554-9453</p> 
+                  <br />
+                  <div className="mb-1 mt-4">Mobile Number</div>
                   <p className="text-gray-600">0920 969 9437</p>
                 </div>
               </div>

@@ -60,13 +60,6 @@ const projects: Project[] = [
     description: "Henann Resort Alona Beach sits on a 6.5-hectare property along the pristine shores of Panglao, Bohol, envisioned not just as a luxury destination but as a model of responsible coastal development. The design emphasizes environmental stewardship by integrating tropical-inspired architecture, the use of native and endemic planting materials, and site-sensitive planning strategies that preserve natural landforms and minimize ecological disturbance.\n\nCentral to the resort's concept is the protection of existing coconut groves, which were carefully retained and integrated into the master plan. These trees create natural shade that reduces heat gain on paved areas, improves outdoor comfort, and lowers energy demand for cooling. By designing pools and open green islands around the preserved vegetation, the resort strengthens biodiversity habitats while providing refreshing recreational spaces for guests.\n\nWater management also plays a vital role in sustainability. Rainwater harvesting systems supply irrigation and landscape maintenance needs, significantly reducing dependence on potable water. Thoughtfully planned circulation routes such as ramps, steps, and elevated walkways follow the site's natural contours, limiting cut-and-fill interventions and ensuring accessibility while maintaining the character of the terrain.\n\nNative planting schemes enrich outdoor lounges with low-maintenance greenery adapted to the coastal climate, requiring less water and chemical input. Lighting strategies were designed to highlight the beachscape without excessive glare or energy waste, creating a safe and scenic ambiance that respects the natural rhythms of the coastal ecosystem.\n\nBy harmonizing modern hospitality with ecological responsibility, Henann Resort offers guests an immersive coastal experience that not only elevates comfort and leisure but also underscores the importance of preserving Panglao's natural heritage for future generations."
   },
   {
-    id: 3,
-    title: "Manila Ocean Park",
-    category: "Parks",
-    location: "Manila, Philippines",
-    image: "https://www.shoreexcursions.asia/wp-content/uploads/2017/06/Manila-Ocean-Park-2.jpg"
-  },
-  {
     id: 4,
     title: "Shore Residences",
     category: "Residential",
@@ -284,7 +277,7 @@ export function FeaturedProjects() {
       <section id="projects" className="py-24 px-4 md:px-8 bg-white relative z-10">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16">
-            <h2 className="text-5xl md:text-6xl mb-4">Featured Projects</h2>
+            <h2 className="text-5xl md:text-6xl mb-4">Projects</h2>
             <div className="w-24 h-px bg-black"></div>
           </div>
           

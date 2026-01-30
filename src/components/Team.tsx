@@ -9,24 +9,19 @@ const teamMembers = [
     isLeader: true
   },
   {
-    name: "Joey P. Velasquez Jr.",
-    position: "Consultant",
-    department: "Senior Advisory"
+    name: "Noemi Rye Rivera",
+    position: "Consultant/Checker",
+    department: "Design"
   },
   {
-    name: "Noemi Pye Divera",
-    position: "Consultant/Designer",
-    department: "Design Team"
+    name: "Ramoncita Aurelio",
+    position: "Administration Manager",
+    department: "Management"
   },
   {
-    name: "Sherwin Layosa",
-    position: "IT Support/IT Helpdesk",
-    department: "Technical Support"
-  },
-  {
-    name: "L. Arch. Donin Valdeña",
-    position: "Senior Architect",
-    department: "Architecture"
+    name: "Roxanne Resurreccion",
+    position: "Secretary / Admin Officer",
+    department: "Management"
   },
   {
     name: "Bruce John Francisco",
@@ -34,22 +29,18 @@ const teamMembers = [
     department: "Technical"
   },
   {
-    name: "Ramoncita Aurelio",
-    position: "Senior Associate",
-    department: "Management"
+    name: "L. Arch. Donn Valderia",
+    position: "Junior Associate",
+    department: "Technical"
   },
+  
   {
-    name: "Roxanne Resurreccion",
-    position: "Managing Partner",
-    department: "Management"
-  },
-  {
-    name: "Melvin Boongcayao",
+    name: "Melvin Piopongco",
     position: "Liaison Officer",
     department: "Operations"
   },
   {
-    name: "Jomar Roxas",
+    name: "Jomari Roxas",
     position: "Senior Landscape Designer",
     department: "Design"
   },
@@ -59,12 +50,12 @@ const teamMembers = [
     department: "Design"
   },
   {
-    name: "Danilo Rosaya Jr.",
+    name: "Danilo Morata Jr.",
     position: "Landscape Designer",
     department: "Design"
   },
   {
-    name: "Ma. Cristina Balactas",
+    name: "Ma. Cristina Balagtas",
     position: "Landscape Architect",
     department: "Design"
   },
@@ -77,6 +68,11 @@ const teamMembers = [
     name: "Martin Albarillo",
     position: "Landscape Designer",
     department: "Design"
+  },
+  {
+    name: "Sherwin Layosa",
+    position: "IT Support/IT Helpdesk",
+    department: "Technical Support"
   }
 ];
 
