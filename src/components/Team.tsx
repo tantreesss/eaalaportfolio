@@ -135,23 +135,6 @@ export function Team() {
             ))}
           </div>
         </div>
-
-        {/* Join Our Team CTA */}
-        <div className="mt-16 pt-16 border-t border-gray-200">
-          <div className="bg-black text-white p-12 text-center">
-            <h3 className="text-3xl mb-4">Join Our Team</h3>
-            <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
-              We're always looking for talented landscape architects and designers who are passionate about creating 
-              exceptional outdoor spaces. If you're interested in joining our team, we'd love to hear from you.
-            </p>
-            <a 
-              href="mailto:eaureliodocumenti@gmail.com?subject=Career Inquiry"
-              className="inline-block px-8 py-3 bg-white text-black hover:bg-gray-100 transition-colors"
-            >
-              Get in Touch
-            </a>
-          </div>
-        </div>
       </div>
     </section>
   );
