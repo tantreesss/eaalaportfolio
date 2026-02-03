@@ -249,7 +249,7 @@ const projects: Project[] = [
     category: "Residential",
     location: "Quezon City",
     image: wackwackImg,
-    
+    description: "This private residence in Wack-wack Subdivision is a good example of designing relatively large residential space without compromising the client's goal to achieve an elegant yet exquisite landscape. Through climate control and the provision of large landscaped areas, reduction of energy costs and heat reflection in the home was achieved. This strategy was also supported by providing natural ventilation that cuts down on the need for air conditioning in the home. By the client’s particular request to design a type of a botanical garden highlighting tropical flora available in the local market for his family and guests, low maintenance design became a highlight in the development without compromising the execution of a beautiful residential garden. The landscape architect alongside the client shared a sense of responsibility to preserve some old and existing vegetation as a clear act of exhibiting conservation. Thereupon, as a sustainable residential landscape, reduction in energy and water expenses, conservation, and low maintenance are just some of the successfully accomplished goals in this project."
   },
   {
     id: 30,
