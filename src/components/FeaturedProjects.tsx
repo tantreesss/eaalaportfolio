@@ -82,7 +82,8 @@ const projects: Project[] = [
     title: "Discovery Shores Boracay",
     category: "Hotels & Resorts",
     location: "Boracay Island, Philippines",
-    image: "https://pix8.agoda.net/hotelImages/8786955/0/fc121781b1ce7978ad10f3be85e30768.jpg?ca=9&ce=1&s=1024x"
+    image: "https://pix8.agoda.net/hotelImages/8786955/0/fc121781b1ce7978ad10f3be85e30768.jpg?ca=9&ce=1&s=1024x",
+    description: "Discovery Shores Boracay is one of the top resorts in Boracay Perfectly positioned in Station 1 of White Beach, this development is known not only for its world-class amenities and facilities, but also for its luxurious services, and outstanding hospitality. With a goal to provide the pinnacle of modern luxury beach experience, Discovery Shores is designed to give its visitors a remarkable adventure. its proximity to the beachfront is one of the strong points of the resort, with this opportunity in hand, working together the landscape architect and architect were able to maximize the configuration of the development to provide the best views of the clear blue sky and Boracay's famous powder-soft white sand beach. The different villas and rooms of the hotel creates the perfect outdoor room which directly connects to the beach. With its seamless transition from the hotel rooms to the outdoor area onto the beach, Discovery Shores makes the Boracay beach more accessible to its guests. And, the outdoor area is also where most of the landscape amenities are. Beautifully designed planting schemes to soften the modern lines created by the buildings and an amazing pool area which is a great alternative to the beach are just some of the amenities that make Discovery Shores Boracay truly an award-winning, world-class resort. This development is a great example of how careful planning, designing, and considering of the natural assets of a site really creates beautiful spaces wherein guests would be thrilled to stay in."
   },
   {
     id: 7,
@@ -96,7 +97,8 @@ const projects: Project[] = [
     title: "Northcrest Subdivision",
     category: "Residential",
     location: "Davao City",
-    image: northcrestImg
+    image: northcrestImg,
+    description: "Built near the foot of Mt. Apo, Northcrest in Cabantian, Davao del Sur offers residents the genuine feet of nature right out of their doorstep. It also houses its own high-class amenities such as social halls, swimming pools, playgrounds, tennis and basketball courts, and a number of parks. Not only is Northcrest dedicated to providing the residents a warm and pleasant stay, but is also committed in protecting the ecology of the area. This instills the principles of deep ecology, which says that humans should co-exist with nature, completely creating a holistic environment that cares for all creatures."
   },
   {
     id: 9,
@@ -140,7 +142,8 @@ const projects: Project[] = [
     title: "Aoki Clubhouse Eagle Ridge Golf And Country Club",
     category: "Parks",
     location: "Gen. Trias, Cavite",
-    image: aokiClubhouseImg
+    image: aokiClubhouseImg,
+    description: "Complementing the golf course design of famous golfer Isao Aoki, the Aoki Clubhouse showcases a Japanese-inspired landscape design that warmly welcomes all of its guests. The Japanese architecture and landscape design of the clubhouse allude to the roots of the great golfer. The vibe of the dubhouse radiates a serene and calm feeling, completely contradicting to the difficult track of the Aoki 18-hole course. Laden with koi ponds with colorful planting that match the architecture, it sets a cool atmosphere that gives its users a Japan-like experience. After a long day of hitting hard on the golf course, the lounge calms down the mood to ease up the golfers, creating a holistic and wonderful experience similar to playing in the shoes of Aoki."
   },
   {
     id: 16,
@@ -161,7 +164,8 @@ const projects: Project[] = [
     title: "Tambuli",
     category: "Hotels & Resorts",
     location: "Lapu-Lapu City, Cebu",
-    image: tambuliImg
+    image: tambuliImg,
+    description: "Tambuli Beach Resort is a perfect example of exemplary synergy of landscape architecture and building architecture. It is the first completely residential resort in Manibago. Lapu-lapu City, Cebu Flaunting its 4 hectare amenity area, Tambuli encloses a total of 11 hectares of land designed to be a modern tropical paradise. The whole development anchors in the idea of mimicking and making use of the opportunities presented by the natural landscape All the trees within the property have been mostly retained - the design specifically and intently considered the location of existing trees within the site. This is not only prevalent and true in the landscape proper, but even in the design of the buildings. All structures within the sile accommodate the trees that are within the area, open skylights are provided for the trees in some instances. And in cases wherein it is necessary to clear an area, trees that are affected are relocated within the site. Ultimately, the design of the development assured that all existing trees are kept within the property, a feat that is quite challenging to achieve. And apart from the considerations for the existing trees, the development was also meticulously designed to maximize the natural landscape while establishing a character for the site eluding elegance, luxury, convenience, and comfort."
   },
   {
     id: 19,
@@ -198,7 +202,8 @@ const projects: Project[] = [
     title: "Filinvest Riverwalk",
     category: "Commercial",
     location: "Muntinlupa City, Metro Manila",
-    image: filinvestImg
+    image: filinvestImg,
+    description: "In order to enhance the ambiance and outdoor experience of the shoppers at the Festival Supermall in Alabang, Muntinlupa, an outdoor development that preserves and blends with the natural environment was designed. The Mangangate River was preserved to protect the ecology of the area, and was utilized to connect the shoppers with nature. Amphitheaters were provided facing the river, with stage events and a scenic backdrop of the water body. Whether on bike or in rubber shoes, one can go around using the bike and jogging paths criss-crossing around the development. These link the River Park, the Water Garden at the expansion, and the mall-creating a whole new dimension of mall experience and dining."
   },
   {
     id: 24,
@@ -214,7 +219,8 @@ const projects: Project[] = [
     title: "SM Seaside City",
     category: "Commercial",
     location: "Cebu",
-    image: smSeasideImg
+    image: smSeasideImg,
+    description: "SM Seaside Cebu is known to be the biggest mall in the Visayas region and the third largest mall in the Philippines. This circular shaped mall situated along Mambaling Road and Cebu South Coastal Road, brings one of a kind experience in a state of art, environmentally sustainable urban center by the sea and a spectacular vine of Cebu. Developed to be a place to shop, a social hub of the local community, a sustainable center, ideally and altogether a lifestyle complex. The architecture, together with the landscape design aims to reflect this role through its central courtyard, sweeping gardens and grand entrances. Outdoor spaces such as playground and water playgrounds that provide physical outlets for kids, while a perimeter jogging path allows visitors, workers, and residents to stay fit, an amphitheater, a water feature on the roof garden and the maze were all designed to enhance interaction between the different users. Besides the outdoor spaces, the introduction of a rooftop garden system, a district cooling. rainwater harvesting, grey water recycling and solar power farms for the mall promote environmental sustainability."
   },
   {
     id: 26,
@@ -242,14 +248,16 @@ const projects: Project[] = [
     title: "Wack-Wack Subdivision Residence",
     category: "Residential",
     location: "Quezon City",
-    image: wackwackImg
+    image: wackwackImg,
+    description: "This private residence in Wack-wack Subdivision is a good example of designing relatively large residential space without compromising the client's goal to achieve an elegant yet exquisite landscape. Through climate control and the provision of large landscaped areas, reduction of energy costs and heat reflection in the home was achieved. This strategy was also supported by providing natural ventilation that cuts down on the need for air conditioning in the home. By the client’s particular request to design a type of a botanical garden highlighting tropical flora available in the local market for his family and guests, low maintenance design became a highlight in the development without compromising the execution of a beautiful residential garden. The landscape architect alongside the client shared a sense of responsibility to preserve some old and existing vegetation as a clear act of exhibiting conservation. Thereupon, as a sustainable residential landscape, reduction in energy and water expenses, conservation, and low maintenance are just some of the successfully accomplished goals in this project."
   },
   {
     id: 30,
     title: "Fairways and Bluewater",
     category: "Hotels & Resorts",
     location: "Boracay",
-    image: fairwaysImg
+    image: fairwaysImg,
+    description: "Fairways and Bluewater Hotel is a resort known for seamlessly blending into its surrounding landscape, without having to drastically manipulate the land. Platform terraces were cut-out from the slopes to achieve and offer the guests a view of the forest and the ocean in different levels. Boracay's pristine seascape was extended inward the development by successfully mimicking the ocean's color which can be experienced in the infinity pools overviewing the Sibuyan Sea. This consideration in design does not only benefit the aesthetic and function of the landscape but also retains the original scenery from the area even before it was developed."
   },
   {
     id: 31,
