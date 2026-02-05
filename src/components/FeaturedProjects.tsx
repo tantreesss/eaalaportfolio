@@ -47,7 +47,6 @@ const projects: Project[] = [
     category: "Parks",
     location: "Makati City",
     image: greenbeltImg,
-    builtEnvironmentType: "Urban Park / Mixed-Use Development",
     description: "Greenbelt in Makati stands as a premier landmark and urban oasis, successfully integrating high-end retail and dining with expansive, uninterrupted gardens. Prioritizing an interplay between built and unbuilt spaces, the planning team strategically positioned buildings along the perimeter to preserve existing mature trees and create a central, seamless garden visible from varying levels. Beyond its aesthetic harmony of architecture and landscape, the development serves vital environmental functions—reducing the urban heat island effect, acting as a carbon sink, managing stormwater through extensive unpaved grounds, and providing a habitat for displaced wildlife, ultimately creating a balanced and healthy urban ecosystem."
   },
   {
@@ -56,7 +55,6 @@ const projects: Project[] = [
     category: "Hotels & Resorts",
     location: "Panglao, Bohol",
     image: "https://pix8.agoda.net/hotelImages/789/789537/789537_16020816140039719868.jpg?ca=6&ce=1&s=1024x",
-    builtEnvironmentType: "Hospitality Development",
     description: "Henann Resort Alona Beach in Panglao, Bohol, distinguishes itself as a luxury destination that prioritizes responsible coastal development and environmental stewardship. By integrating tropical architecture with the preservation of existing coconut groves and natural landforms, the resort minimizes ecological disturbance while enhancing guest comfort through natural shading and biodiversity-rich green spaces. Sustainability is further reinforced through rainwater harvesting for irrigation, site-sensitive circulation paths that limit terrain alteration, and the extensive use of low-maintenance native flora. Ultimately, the resort harmonizes modern hospitality with ecological preservation, offering an immersive experience that respects and protects Panglao's natural heritage."
   },
   {
@@ -65,7 +63,6 @@ const projects: Project[] = [
     category: "Residential",
     location: "Pasay City",
     image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/425103504.jpg?k=eb70e491633f51681e5f4cd2e4e7fb1f655953a4fb137ff138ead49e03f51bbe&o=",
-    builtEnvironmentType: "Residential Condominium",
     description: "Shore Residences is a resort-inspired residential complex within the SMDC Shore Mall of Asia complex that brings the ambiance of world-class beachfront getaways into the heart of the Pasay Business District. Strategically located near Manila Bay, the development features a tropical landscape design characterized by organic forms, 'beach-approach' swimming pools, and rock formations that house slides and showers. Beyond its aquatic amenities, the complex integrates a variety of outdoor recreational facilities—including a mini-football field, basketball court, and playgrounds—using a mix of palms and sand-finished hardscapes to maintain its vacation-like atmosphere."
   },
   {
@@ -74,7 +71,6 @@ const projects: Project[] = [
     category: "Commercial",
     location: "Ortigas Center, Mandaluyong City",
     image: thePodiumImg,
-    builtEnvironmentType: "Commercial Building / Mixed-use Development",
     description: "Located in the Ortigas center, The Podium complex—comprising the BDO Tower and SM Keppel Tower—is a mixed-use development that balances commercial efficiency with advanced environmental sustainability. To combat the urban heat island effect and maintain its LEED Gold and BCA Green Mark Gold certifications, the complex features high-albedo roofing materials and the Philippines' largest green wall, which utilizes a typhoon-resistant netting system and automated drip irrigation. This integration of sustainable technology and lush garden spaces not only reduces reliance on air conditioning through natural ventilation but also provides a vital, humane 'breathing space' for employees and visitors within the dense urban environment."
   },
   {
@@ -90,7 +86,8 @@ const projects: Project[] = [
     title: "SMDC Parkville",
     category: "Residential",
     location: "Bacolod City",
-    image: smdcParkvilleImg
+    image: smdcParkvilleImg,
+    description: "Parkville’s landscape design is guided by the principle of the human dynamic experience, specifically through its 'Life Village' concept which fosters a lifestyle rooted in nature and a close-knit community. Adopting a Modern Tropical theme, the development utilizes clean planting lines and natural forms to create a simple yet expressive outdoor environment. By intentionally transforming negative spaces into purposeful 'Green Havens' with a thoughtful selection of flora, the design strikes a balance between a slow-paced retreat and an active communal setting, ensuring residents feel a deep, restorative connection to their surroundings."
   },
   {
     id: 8,
@@ -105,7 +102,8 @@ const projects: Project[] = [
     title: "Ayala Greenfield Estates",
     category: "Residential",
     location: "Calamba, Laguna",
-    image: ayalaGreenfieldImg
+    image: ayalaGreenfieldImg,
+    description: "This nature park, that has an area of 15 hectares, is part of the series of parks within the Ayala Greenfields Estates, a high end 300-hectare residential development situated near the slopes of Mt. Makiling. This features fruit orchards, simulated rainforest and a "canopy walk" over the forest aside from the clubhouse facilities such as children's playground, play courts, swimming pool, etc."
   },
   {
     id: 10,
@@ -119,14 +117,16 @@ const projects: Project[] = [
     title: "Marquee Place",
     category: "Residential",
     location: "Angeles, Pampanga",
-    image: marqueePlaceImg
+    image: marqueePlaceImg,
+    description: "Marquee Place in Angeles City, Pampanga, is a 35-hectare residential community that integrates cosmopolitan convenience with a commitment to a life-enhancing, sustainable environment. To combat the region's humid climate, the landscape is defined by a 750-meter linear park featuring wide-canopy trees that connect the family and sports clubhouses, all while utilizing locally sourced materials to support the regional economy. The design promotes wellness and social camaraderie through a diverse range of amenities, including multi-purpose pools with infinity edges, jogging trails, and a small amphitheater strategically placed to foster community bonds. Furthermore, the development champions eco-friendly innovation by employing porous materials, natural slopes, and detention ponds to manage rainwater efficiently, proving that sophisticated, sustainable drainage can be achieved through the clever integration of natural systems."
   },
   {
     id: 13,
     title: "The Sonoma",
     category: "Residential",
     location: "Sta. Rosa, Laguna",
-    image: theSonomaImg
+    image: theSonomaImg,
+    description: "Sonoma in Sta. Rosa, Laguna, is a nature-centric residential community designed to promote well-being through a landscape that balances modern aesthetics with user-focused functionality. The development features a multi-leveled pool area characterized by rectilinear lines, tropical plant boxes, and submerged seating that encourages social interaction, all while integrating slip-resistant and heat-reflective materials to ensure the safety of families and the elderly. Beyond its recreational heart, the design emphasizes environmental sustainability by utilizing wide-canopy trees to mitigate the humid climate and employing permeable hardscaping to recharge the local aquifer. Ultimately, Sonoma serves as a secure, tranquil retreat that fosters neighborhood connection and enhances property value by harmonizing the built environment with the diverse needs of its residents."
   },
   {
     id: 14,
@@ -134,7 +134,6 @@ const projects: Project[] = [
     category: "Residential",
     location: "Toril, Davao City",
     image: villaDeMercedesImg,
-    builtEnvironmentType: "High-End Residential Subdivision",
     description: "Perched at the foothills of Mount Apo at an elevation of 535 feet, Villa de Mercedes is a high-end, meticulously planned subdivision in Davao that prioritizes responsible land stewardship and a resort-like lifestyle. The development seamlessly integrates luxury amenities—such as a 700-square-meter infinity pool, beach volleyball area, and clubhouse—with aggressive conservation efforts, including the preservation of existing waterways and vegetation to protect local wildlife. By implementing environmentally sound features like detention ponds, rain gardens for natural stormwater management, and expansive meandering traffic islands, the project creates a 'garden-estate' atmosphere that offers residents panoramic views of the Davao Gulf while fostering a deep, sustainable connection to the surrounding natural landscape."
   },
   {
@@ -150,14 +149,16 @@ const projects: Project[] = [
     title: "Saddle And Club Leisure Park",
     category: "Parks",
     location: "Naic, Cavite",
-    image: saddleClubImg
+    image: saddleClubImg,
+    description: "The leisure waterpark allows residents to take a dip in cool waters while being surrounded by the refreshing sight of towering palm trees and an assortment of other plants to create this beauty."
   },
   {
     id: 17,
     title: "Aquamundo",
     category: "Parks",
     location: "Kawit, Cavite",
-    image: aquamundoImg
+    image: aquamundoImg,
+    description: "Featuring various water play amenities, this resort located at the heart of Antel's community in Cavite offers an outdoor experience that will be surely remembered by the visitors and residents."
   },
   {
     id: 18,
@@ -179,14 +180,16 @@ const projects: Project[] = [
     title: "The Lind",
     category: "Hotels & Resorts",
     location: "Boracay",
-    image: theLindImg
+    image: theLindImg,
+    description: "Located at the northern end of Boracay’s Station 1, The Lind Boracay is a premier 'lifestyle hotel' that seamlessly integrates high-end hospitality with a landscape design focused on environmental harmony. By maximizing its beachfront proximity, the resort utilizes infinity pools and strategic roof decks to offer guests unhindered views of the ocean, effectively marrying the built environment with the island's natural assets. The design prioritizes sustainability and guest comfort through a lush, 'island-inspired' courtyard that employs dense tropical softscaping and lawn spaces to mitigate the heat island effect within a compact layout. Ultimately, the development serves as a world-class retreat where the architecture acts as a bridge, allowing visitors to experience the beauty of the gleaming waters and clear skies within a curated, luxurious setting."
   },
   {
     id: 21,
     title: "Sheraton Manila Hotel",
     category: "Hotels & Resorts",
     location: "Newport, Pasay City",
-    image: sheratonManilaImg
+    image: sheratonManilaImg,
+    description: "A Creative solution bringing two first class hotels, The Hilton Garden Inn and the Sheraton Manila Hotel, give an intelligently sophisticated design for the amenity area that compliments both parties. The first class accommodation give guests the luxury suites brought outdoors. The tropical design of the landscape brings a different character to the area giving the guests a better feel of the outdoors, Serene pools for adults and kids, together with a jacuzzi allows physical activities and relaxation. A breezy Al-fresco dining area, with a pool bar, complete the experience of whoever wishes to have a pleasant stay."
   },
   {
     id: 22,
@@ -194,7 +197,6 @@ const projects: Project[] = [
     category: "Hotels & Resorts",
     location: "La Union",
     image: aureoImg,
-    builtEnvironmentType: "Resort",
     description: "Aureo Hotel & Resort reimagines the traditional luxury getaway by positioning its landscape as the central guest experience, where rooms open directly onto a harmonious blend of architecture and ecology. The design's standout feature is the integration of large planting areas directly within the pool system, creating lush green islands that provide natural shade, glare reduction, and microclimate cooling to enhance guest comfort. Developed through deep collaboration with local communities and hotel operators, the resort serves as a functional model for sustainable hospitality, proving that high-end leisure can coexist with ecological responsibility through thoughtful water and vegetation management."
   },
   {
@@ -211,7 +213,6 @@ const projects: Project[] = [
     category: "Commercial",
     location: "Makati City",
     image: zuelligBuildingImg,
-    builtEnvironmentType: "Commercial Office Building",
     description: "The Zuellig Building, located at a prime intersection in the Makati Central Business District, serves as a premier model of harmony between architecture and landscape architecture, achieving the prestigious LEED Platinum certification. The design utilizes a bold, modern sculptural planting scheme and a formal color palette of grays and blacks to complement its state-of-the-art facade while fostering a 'prime-grade' workplace atmosphere. By integrating an outdoor garden, a third-level deck, and a 38th-level skydeck, the project employs green corridors and locally sourced, low-impact materials to mitigate urban pollutants and reduce heat. Ultimately, the development prioritizes user well-being by providing a tranquil, 'breathing' environment that balances the intensity of the metropolis with sustainable, world-class Filipino design."
   },
   {
@@ -234,14 +235,16 @@ const projects: Project[] = [
     title: "Sail Residences",
     category: "Residential",
     location: "Quezon City",
-    image: sailResidencesImg
+    image: sailResidencesImg,
+    description: "Inspired by its namesake, the SM Sail Residences landscape design centers on a 'Sail and Rainforest' concept that transforms the central amenity area into a restorative aquatic escape. The layout features four major sail-shaped swimming pools interconnected by narrow, stream-like water features to mimic a continuous rainforest flow, punctuated by pod-like jacuzzis that offer private, cove-like retreats. Prioritizing both psychological relaxation and functional variety, the design includes sunken 'dipping' decks for casual wading, lounging nets, and shaded areas tucked beneath buildings to accommodate local preferences for sun protection. By blending tropical softscapes, multi-purpose lawns, and active recreation zones, the development creates a meditative, nature-focused sanctuary that provides residents an organic reprieve from the surrounding urban stress."
   },
   {
     id: 28,
     title: "SM Jazz Condominium",
     category: "Residential",
     location: "Makati City",
-    image: smJazzCondoImg
+    image: smJazzCondoImg,
+    description: "The guiding principle for the landscape conceptualization of SM Jazz Residences is to provide a quick getaway for the users from the city life. Given that the high-rise development is located in one of the busiest cities in the Metro, Makati City, one of the goals is to provide a laid-back atmosphere for those needing a relaxing space after a stressful day. The property provided its residents a variety of landscape elements, mostly consisting of vast swimming pools and green spaces to further achieve this goal. Modern minimalist is the design theme used to divide and tie together various spaces, with the rectilinear layout of the amenity landscape complementing the modern appearance and design of the buildings. Contributing to the concept of modern minimalist to the landscape design is the 'planes and platforms' intent in the landscape elements. The overall amenity has a flat level with minimum changes in the elevations through the raised wood decks and bridges. This gives all the different towers a connection and a common venue for residents to come together for a quick getaway."
   },
   {
     id: 29,
@@ -265,7 +268,6 @@ const projects: Project[] = [
     category: "Hotels & Resorts",
     location: "Boracay, Aklan",
     image: primeImg,
-    builtEnvironmentType: "Hotel & Resort",
     description: "Henann Prime in Boracay’s Station 1 distinguishes itself as an intimate, beachfront sanctuary that prioritizes minimalist elegance and privacy over the grand scale of its sister resorts. Strategically utilizing its limited real estate, the landscape design centers on two distinct pool wings: the West Wing features secluded, room-accessible private pools adorned with bas-reliefs and water cascades, while the East Wing centers on a narrow pool integrated with sunken seating and wooden decks. By blending high-end beachfront amenities—like its signature blue-green beach beds—with aquatic features designed to complement rather than compete with the natural coastline, Henann Prime offers a luxurious, 'elegantly minimalist' experience that capitalizes on its prestigious and quiet location."
   }
 ];
@@ -318,18 +320,17 @@ export function FeaturedProjects() {
     
     if (match) return match;
     
-    // Try matching key words (e.g., "Tambuli" matches "Tambuli Seaside Resort")
+
     const awardWords = normalizedAwardName.split(' ').filter(word => word.length > 2);
     match = projects.find(project => {
       const projectTitle = normalizeProjectName(project.title);
       const projectWords = projectTitle.split(' ').filter(word => word.length > 2);
       
-      // Check if significant words match
+
       const matchingWords = awardWords.filter(word => 
         projectWords.some(pWord => pWord.includes(word) || word.includes(pWord))
       );
       
-      // Require at least 2 matching words or one very long matching word
       return matchingWords.length >= 2 || 
              (matchingWords.length === 1 && matchingWords[0].length > 5);
     });
