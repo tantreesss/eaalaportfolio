@@ -103,7 +103,7 @@ const projects: Project[] = [
     category: "Residential",
     location: "Calamba, Laguna",
     image: ayalaGreenfieldImg,
-    description: "This nature park, that has an area of 15 hectares, is part of the series of parks within the Ayala Greenfields Estates, a high end 300-hectare residential development situated near the slopes of Mt. Makiling. This features fruit orchards, simulated rainforest and a "canopy walk" over the forest aside from the clubhouse facilities such as children's playground, play courts, swimming pool, etc."
+    description: "This nature park, that has an area of 15 hectares, is part of the series of parks within the Ayala Greenfields Estates, a high end 300-hectare residential development situated near the slopes of Mt. Makiling. This features fruit orchards, simulated rainforest and a 'canopy walk' over the forest aside from the clubhouse facilities such as children's playground, play courts, swimming pool, etc."
   },
   {
     id: 10,
