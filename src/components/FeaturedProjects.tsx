@@ -228,8 +228,7 @@ const projects: Project[] = [
     title: "Vine Residences",
     category: "Residential",
     location: "Quezon City",
-    image: vineResidencesImg,
-    description: "Vine"
+    image: vineResidencesImg
   },
   {
     id: 27,
