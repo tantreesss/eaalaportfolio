@@ -9,7 +9,7 @@ const teamMembers = [
     isLeader: true
   },
   {
-    name: "Noemi Rye Rivera",
+    name: "Elijah Luke Bernardo",
     position: "Consultant/Checker",
     department: "Design"
   },
@@ -19,7 +19,7 @@ const teamMembers = [
     department: "Management"
   },
   {
-    name: "Roxanne Resurreccion",
+    name: "Geraldine Sagun",
     position: "Secretary / Admin Officer",
     department: "Management"
   },
@@ -52,11 +52,6 @@ const teamMembers = [
   {
     name: "Danilo Morata Jr.",
     position: "Landscape Designer",
-    department: "Design"
-  },
-  {
-    name: "Ma. Cristina Balagtas",
-    position: "Landscape Architect",
     department: "Design"
   },
   {
