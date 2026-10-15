@@ -39,7 +39,7 @@ export function About() {
             
             <div className="mt-12 grid grid-cols-3 gap-8">
               <div>
-                <div className="text-4xl mb-2">25+</div>
+                <div className="text-4xl mb-2">46</div>
                 <div className="text-gray-600">Years Experience</div>
               </div>
               <div>

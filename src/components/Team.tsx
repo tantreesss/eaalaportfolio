@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: "L.Ar. Efren Aurelio",
     position: "President / Chief Designer",
-    description: "Philippine Landscape Architecture Icon with over 25 years of international experience across Asia.",
+    description: "Philippine Landscape Architecture Icon with over 46 years of international experience across Asia.",
     isLeader: true
   },
   {
@@ -45,7 +45,7 @@ const teamMembers = [
     department: "Design"
   },
   {
-    name: "Dann Dexter Corpuz",
+    name: "L. Arch. Dann Dexter Corpuz",
     position: "Landscape Architect",
     department: "Design"
   },
